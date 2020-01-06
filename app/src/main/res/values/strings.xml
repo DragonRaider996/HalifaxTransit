@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Assignment 3</string>
+    <string name="switch_text">Allow the app to recenter to current location</string>
+    <string name="select_bus">Select Bus To Show</string>
+    <string name="setting_title">Settings</string>
+    <string-array name="bus">
+        <item>1</item>
+        <item>10</item>
+        <item>11</item>
+        <item>123</item>
+        <item>135</item>
+        <item>136</item>
+        <item>137</item>
+        <item>138</item>
+        <item>14</item>
+        <item>15</item>
+        <item>159</item>
+        <item>185</item>
+        <item>194</item>
+        <item>196</item>
+        <item>2</item>
+        <item>21</item>
+        <item>22</item>
+        <item>28</item>
+        <item>29</item>
+        <item>3</item>
+        <item>30A</item>
+        <item>30B</item>
+        <item>32</item>
+        <item>320</item>
+        <item>330</item>
+        <item>370</item>
+        <item>39</item>
+        <item>4</item>
+        <item>400</item>
+        <item>401</item>
+        <item>41</item>
+        <item>433</item>
+        <item>5</item>
+        <item>51</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>68</item>
+        <item>7</item>
+        <item>72</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>9A</item>
+        <item>9B</item>
+    </string-array>
+</resources>

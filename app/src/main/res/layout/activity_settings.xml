@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:id="@+id/toolbarSetting"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:titleTextColor="@color/colorWhite"
+        app:navigationIcon="@drawable/ic_arrow_back_black_24dp"
+        app:title="">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbarSetting"
+        android:layout_margin="15dp"
+        android:id="@+id/switchMaterial"
+        android:text="@string/switch_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewBusSetting"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/switchMaterial"
+        android:layout_margin="15dp"
+        android:text="@string/select_bus"
+        android:textColor="#000000"
+        android:drawableEnd="@drawable/ic_chevron_right_black_24dp"
+        android:textSize="14sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
